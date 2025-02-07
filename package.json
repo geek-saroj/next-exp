@@ -4,15 +4,28 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "dev1": "next dev -H 192.168.1.104 -p 3000",
     "build": "next build",
     "start": "PORT=3001 next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@ebay/nice-modal-react": "^1.2.13",
+    "@emotion/styled": "^11.14.0",
+    "@headlessui/react": "^2.2.0",
+    "@material-ui/core": "^4.12.4",
+    "@mui/icons-material": "^6.4.3",
+    "@mui/material": "^6.1.10",
+    "axios": "^1.7.9",
     "next": "14.2.13",
     "react": "^18",
+    "react-dnd": "^16.0.1",
     "react-dom": "^18",
-    "react-select": "^5.8.1"
+    "react-hook-form": "^7.53.2",
+    "react-icons": "^5.4.0",
+    "react-select": "^5.8.1",
+    "rizzui": "^0.8.7",
+    "socket.io-client": "^4.8.0"
   },
   "devDependencies": {
     "@types/node": "^20",
